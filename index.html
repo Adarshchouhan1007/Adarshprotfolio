@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Adarsh Chouhan | Software Engineer & Algorithm Specialist</title>
+  <meta name="description" content="Official personal portfolio of Adarsh Chouhan - Software Engineer, Competitive Programmer, and Full Stack Developer. View biography, skills, projects, and GeeksforGeeks & LinkedIn profiles.">
+  <meta name="keywords" content="Adarsh Chouhan, Portfolio, Software Engineer, Competitive Programming, GeeksforGeeks, LinkedIn, React, C++, Data Structures">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⚡</text></svg>">
+
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" href="/src/styles/style.css">
+</head>
+<body>
+
+  <!-- Ambient Grid Background -->
+  <div class="bg-grid"></div>
+
+  <!-- Navigation Bar -->
+  <header class="navbar">
+    <div class="container nav-container">
+      <a href="#hero" class="logo">
+        <span class="logo-dot"></span>
+        ADARSH<span style="color: var(--accent-cyan)">.DEV</span>
+      </a>
+
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#hero" class="nav-link active">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#cp-profiles" class="nav-link">Profiles</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <button id="theme-toggle" class="theme-toggle-btn" title="Toggle Theme">
+          <i class="fa-solid fa-sun"></i>
+        </button>
+        <a href="#contact" class="btn btn-primary btn-sm" style="padding: 0.6rem 1.2rem; font-size: 0.88rem;">
+          Hire Me
+        </a>
+        <button id="mobile-menu-btn" class="mobile-menu-btn" aria-label="Toggle Navigation">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section id="hero" class="hero-section">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <div class="hero-badge">
+            <span class="pulse-dot"></span>
+            Available for Software Engineering Roles
+          </div>
+          <h1 class="hero-title">
+            Hi, I'm <span class="gradient-text">Adarsh Chouhan</span>
+          </h1>
+          <div class="typing-container">
+            I'm a&nbsp;<span id="typed-role" class="typed-text"></span>
+          </div>
+          <p class="hero-desc">
+            Passionate computer science practitioner specializing in building efficient algorithms, scalable web applications, and solving complex algorithmic challenges on GeeksforGeeks and LeetCode.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary">
+              <i class="fa-solid fa-rocket"></i> Explore Work
+            </a>
+            <a href="#contact" class="btn btn-outline">
+              <i class="fa-solid fa-paper-plane"></i> Get in Touch
+            </a>
+          </div>
+
+          <div class="social-pills">
+            <a href="https://www.linkedin.com/in/adarsh-chouhan-663005395/?isSelfProfile=true" target="_blank" class="social-icon-btn linkedin" title="LinkedIn Profile">
+              <i class="fa-brands fa-linkedin-in"></i>
+            </a>
+            <a href="https://www.geeksforgeeks.org/profile/chouhana6f88" target="_blank" class="social-icon-btn gfg" title="GeeksforGeeks Profile">
+              <i class="fa-solid fa-code"></i>
+            </a>
+            <a href="https://github.com" target="_blank" class="social-icon-btn" title="GitHub Repository">
+              <i class="fa-brands fa-github"></i>
+            </a>
+            <a href="mailto:chouhana6f88@gmail.com" class="social-icon-btn" title="Send Email">
+              <i class="fa-solid fa-envelope"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="hero-avatar-wrap">
+          <div class="avatar-glow-ring"></div>
+          <div class="avatar-img-card">
+            <img src="/assets/images/avatar.png" alt="Adarsh Chouhan Avatar" />
+          </div>
+          <div class="hero-stat-floating">
+            <i class="fa-solid fa-trophy stat-icon"></i>
+            <div>
+              <div class="stat-number">500+</div>
+              <div class="stat-label">GFG & CP Problems Solved</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Biography / About Me Section -->
+    <section id="about">
+      <div class="container">
+        <div class="section-title-wrap">
+          <span class="section-tag">Biography</span>
+          <h2 class="section-title">About Adarsh Chouhan</h2>
+          <p class="section-subtitle">Dedicated to engineering elegant code and continuous learning in computer science.</p>
+        </div>
+
+        <div class="about-grid">
+          <div class="glass-card about-card">
+            <h3 style="font-family: var(--font-heading); font-size: 1.6rem; margin-bottom: 1rem; color: var(--accent-cyan);">
+              Driven by Algorithms & Web Engineering
+            </h3>
+            <div class="about-text">
+              <p>
+                I am a dedicated software developer with a strong foundation in computer science core fundamentals, data structures, and algorithmic optimization. My journey involves relentless problem-solving and transforming logical ideas into production-ready software solutions.
+              </p>
+              <p>
+                Whether it's optimizing time complexity in C++ or designing interactive responsive UIs in JavaScript & React, I strive for precision, readability, and high user impact in every line of code I write.
+              </p>
+            </div>
+          </div>
+
+          <div class="glass-card about-card" style="display: flex; flex-direction: column; justify-content: center;">
+            <h3 style="font-family: var(--font-heading); font-size: 1.4rem; margin-bottom: 1.2rem;">
+              Core Strengths & Highlights
+            </h3>
+            <ul style="list-style: none; display: flex; flex-direction: column; gap: 1rem; color: var(--text-secondary);">
+              <li style="display: flex; align-items: center; gap: 0.8rem;">
+                <i class="fa-solid fa-circle-check" style="color: var(--accent-cyan); font-size: 1.2rem;"></i>
+                <span><strong>Data Structures & Algorithms:</strong> Deep command of Arrays, Trees, Graphs, DP, & Recursion.</span>
+              </li>
+              <li style="display: flex; align-items: center; gap: 0.8rem;">
+                <i class="fa-solid fa-circle-check" style="color: var(--accent-cyan); font-size: 1.2rem;"></i>
+                <span><strong>Full Stack Web Architecture:</strong> Clean frontend designs paired with RESTful backend APIs.</span>
+              </li>
+              <li style="display: flex; align-items: center; gap: 0.8rem;">
+                <i class="fa-solid fa-circle-check" style="color: var(--accent-cyan); font-size: 1.2rem;"></i>
+                <span><strong>Competitive Coding Discipline:</strong> Active problem solver on GeeksforGeeks & LeetCode.</span>
+              </li>
+            </ul>
+
+            <div class="bio-stats-grid">
+              <div class="bio-stat-item">
+                <div class="bio-stat-val" data-target="500">0+</div>
+                <div class="bio-stat-name">CP Solved</div>
+              </div>
+              <div class="bio-stat-item">
+                <div class="bio-stat-val" data-target="15">0+</div>
+                <div class="bio-stat-name">Projects</div>
+              </div>
+              <div class="bio-stat-item">
+                <div class="bio-stat-val" data-target="100">0%</div>
+                <div class="bio-stat-name">Dedication</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills & Technology Stack -->
+    <section id="skills">
+      <div class="container">
+        <div class="section-title-wrap">
+          <span class="section-tag">Technical Stack</span>
+          <h2 class="section-title">Skills & Expertise</h2>
+          <p class="section-subtitle">Core technical proficiencies across software development and problem solving.</p>
+        </div>
+
+        <div class="skills-filter-nav">
+          <button class="filter-btn active" data-filter="all">All Skills</button>
+          <button class="filter-btn" data-filter="cs">DSA & CS Core</button>
+          <button class="filter-btn" data-filter="languages">Languages</button>
+          <button class="filter-btn" data-filter="frontend">Frontend</button>
+          <button class="filter-btn" data-filter="backend">Backend</button>
+          <button class="filter-btn" data-filter="tools">Tools & Tech</button>
+        </div>
+
+        <div class="skills-grid" id="skills-grid">
+          <!-- Dynamically populated via skills.js -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Showcase -->
+    <section id="projects">
+      <div class="container">
+        <div class="section-title-wrap">
+          <span class="section-tag">Portfolio Showcase</span>
+          <h2 class="section-title">Featured Projects</h2>
+          <p class="section-subtitle">A collection of web applications, algorithmic visualizers, and tools I've engineered.</p>
+        </div>
+
+        <div class="projects-grid" id="projects-grid">
+          <!-- Dynamically populated via projects.js -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Competitive Programming & Profiles Spotlight Section -->
+    <section id="cp-profiles">
+      <div class="container">
+        <div class="section-title-wrap">
+          <span class="section-tag">Online Presence</span>
+          <h2 class="section-title">Professional Profiles Spotlight</h2>
+          <p class="section-subtitle">Connect with me on professional platforms and review my competitive programming footprint.</p>
+        </div>
+
+        <div class="profiles-grid">
+          <!-- GeeksforGeeks Profile Card -->
+          <div class="glass-card profile-card gfg">
+            <div>
+              <div class="profile-header">
+                <div class="profile-icon">
+                  <i class="fa-solid fa-code"></i>
+                </div>
+                <div>
+                  <h3 class="profile-name">GeeksforGeeks</h3>
+                  <div class="profile-handle">@chouhana6f88</div>
+                </div>
+              </div>
+              <ul class="profile-highlights">
+                <li><i class="fa-solid fa-check"></i> 500+ Coding Problems Solved</li>
+                <li><i class="fa-solid fa-check"></i> Data Structures & Algorithms Mastery</li>
+                <li><i class="fa-solid fa-check"></i> Consistent Daily Practice Streak</li>
+                <li><i class="fa-solid fa-check"></i> Top Ranking Candidate in Institute</li>
+              </ul>
+            </div>
+            <a href="https://www.geeksforgeeks.org/profile/chouhana6f88" target="_blank" class="btn btn-primary" style="background: var(--gradient-gfg); color: #fff; width: 100%; justify-content: center;">
+              Visit GeeksforGeeks Profile <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </a>
+          </div>
+
+          <!-- LinkedIn Profile Card -->
+          <div class="glass-card profile-card linkedin">
+            <div>
+              <div class="profile-header">
+                <div class="profile-icon">
+                  <i class="fa-brands fa-linkedin-in"></i>
+                </div>
+                <div>
+                  <h3 class="profile-name">LinkedIn Profile</h3>
+                  <div class="profile-handle">in/adarsh-chouhan-663005395</div>
+                </div>
+              </div>
+              <ul class="profile-highlights">
+                <li><i class="fa-solid fa-check"></i> Professional Networking & Tech Updates</li>
+                <li><i class="fa-solid fa-check"></i> Software Engineering Milestones</li>
+                <li><i class="fa-solid fa-check"></i> Active Industry Engagement</li>
+                <li><i class="fa-solid fa-check"></i> Verified Project Credentials</li>
+              </ul>
+            </div>
+            <a href="https://www.linkedin.com/in/adarsh-chouhan-663005395/?isSelfProfile=true" target="_blank" class="btn btn-primary" style="background: var(--accent-linkedin); color: #fff; width: 100%; justify-content: center;">
+              Connect on LinkedIn <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </a>
+          </div>
+
+          <!-- GitHub / Open Source Spotlight -->
+          <div class="glass-card profile-card github">
+            <div>
+              <div class="profile-header">
+                <div class="profile-icon">
+                  <i class="fa-brands fa-github"></i>
+                </div>
+                <div>
+                  <h3 class="profile-name">GitHub Repositories</h3>
+                  <div class="profile-handle">@adarsh-chouhan</div>
+                </div>
+              </div>
+              <ul class="profile-highlights">
+                <li><i class="fa-solid fa-check"></i> Clean, Modular Codebases</li>
+                <li><i class="fa-solid fa-check"></i> Open Source Contributions</li>
+                <li><i class="fa-solid fa-check"></i> Algorithmic Solutions Repositories</li>
+                <li><i class="fa-solid fa-check"></i> Comprehensive Documentation</li>
+              </ul>
+            </div>
+            <a href="https://github.com" target="_blank" class="btn btn-outline" style="width: 100%; justify-content: center;">
+              Explore Repositories <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+      <div class="container">
+        <div class="section-title-wrap">
+          <span class="section-tag">Get In Touch</span>
+          <h2 class="section-title">Contact Me</h2>
+          <p class="section-subtitle">Have a query, project proposal, or collaboration opportunity? Send a message below!</p>
+        </div>
+
+        <div class="contact-grid">
+          <div class="glass-card contact-info-card">
+            <div>
+              <h3 style="font-family: var(--font-heading); font-size: 1.5rem; margin-bottom: 1.5rem;">Let's Connect!</h3>
+              <p style="color: var(--text-secondary); margin-bottom: 2rem;">
+                I am actively seeking software engineering positions, internships, and algorithm challenge collaborations.
+              </p>
+
+              <div class="contact-item">
+                <div class="contact-icon">
+                  <i class="fa-solid fa-envelope"></i>
+                </div>
+                <div>
+                  <div class="contact-label">Email Direct</div>
+                  <div class="contact-value">chouhana6f88@gmail.com</div>
+                </div>
+              </div>
+
+              <div class="contact-item">
+                <div class="contact-icon" style="color: #2f9d51; background: rgba(47,157,81,0.1); border-color: rgba(47,157,81,0.2);">
+                  <i class="fa-solid fa-code"></i>
+                </div>
+                <div>
+                  <div class="contact-label">GeeksforGeeks Profile</div>
+                  <div class="contact-value">chouhana6f88</div>
+                </div>
+              </div>
+
+              <div class="contact-item">
+                <div class="contact-icon" style="color: #0a66c2; background: rgba(10,102,194,0.1); border-color: rgba(10,102,194,0.2);">
+                  <i class="fa-brands fa-linkedin-in"></i>
+                </div>
+                <div>
+                  <div class="contact-label">LinkedIn Profile</div>
+                  <div class="contact-value">adarsh-chouhan-663005395</div>
+                </div>
+              </div>
+            </div>
+
+            <div style="margin-top: 2rem; padding-top: 1.5rem; border-top: 1px solid var(--border-glass);">
+              <span style="font-size: 0.85rem; color: var(--text-secondary);">Location: India • Remote Ready</span>
+            </div>
+          </div>
+
+          <div class="glass-card contact-form-card">
+            <form id="contact-form">
+              <div class="form-group">
+                <label class="form-label" for="contact-name">Your Full Name</label>
+                <input type="text" id="contact-name" class="form-input" placeholder="e.g. Alex Smith" required />
+              </div>
+              <div class="form-group">
+                <label class="form-label" for="contact-email">Email Address</label>
+                <input type="email" id="contact-email" class="form-input" placeholder="e.g. alex@example.com" required />
+              </div>
+              <div class="form-group">
+                <label class="form-label" for="contact-message">Your Message</label>
+                <textarea id="contact-message" class="form-textarea" placeholder="Describe your opportunity or inquiry..." required></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary" style="width: 100%; justify-content: center;">
+                <i class="fa-solid fa-paper-plane"></i> Send Message
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Project Details Modal Overlay -->
+  <div id="project-modal" class="modal-overlay">
+    <div class="modal-box">
+      <button id="close-modal-btn" class="modal-close-btn" aria-label="Close Modal">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+      <div class="modal-content-area"></div>
+    </div>
+  </div>
+
+  <!-- Toast Notification Message -->
+  <div id="toast-notification" class="toast-msg">
+    <i class="fa-solid fa-circle-check" style="color: var(--accent-emerald); font-size: 1.3rem;"></i>
+    <span class="toast-text">Message sent successfully!</span>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container" style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem;">
+      <div>
+        © 2026 <strong>Adarsh Chouhan</strong>. All rights reserved.
+      </div>
+      <div>
+        Built with HTML5, Vanilla CSS, & JavaScript.
+      </div>
+      <div>
+        <a href="#hero" style="color: var(--accent-cyan); font-weight: 600;">Back to Top <i class="fa-solid fa-arrow-up"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Application Main JavaScript -->
+  <script type="module" src="/src/scripts/main.js"></script>
+</body>
+</html>
